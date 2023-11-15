@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.bg{
+    background-color: #38636c;
+    background-image: image("AI.jpeg");
+}
+
+.head{
+    color: #fff;
+    text-align: center;
+    background-color: #ec9bf7;
+    border-radius: 5px;
+    
+}
+
+.ul {
+  color: #fff;
+  background-color: rgb(79, 180, 239);
+  height: 25px;
+  width: 20%;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.link-container {
+  display: block;
+  
+}
+
+/* Add your styles here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.fade {
+  animation: fade 1.5s ease-in-out infinite;
+}
+
+@keyframes fade {
+  from {
+      opacity: 0.4;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer {
+  background-color: #e3bf23;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .footer {
+      font-size: 14px;
+      font-weight: bold;
+  }
+}
+
+
+
+.ul:hover {
+  background-color: rgb(58, 122, 232);
+
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768) {
+  p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin: auto;
+  }
+
+  ul {
+    width: 100%;
+    text-align: center;
+
+  }
+}
+
+.mini {
+  text-align: center;
+  font-family: Franklin Gothic Medium;
+  text-align: justify;
+  margin-right: 25%;
+  margin-left: 25%;
+
+}

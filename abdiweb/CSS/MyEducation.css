@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.bg{
+    background-color: #fff;
+}
+
+.head{
+    color: #fff;
+    text-align: center;
+    background-color: #27e677;
+    border-radius: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  .link-container {
+    display: block;
+    
+  }
+
+.bby{
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #e3bf23;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .footer {
+        font-size: 14px;
+        font-weight: bold;
+    }
+  }
+
+  /*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  }
+  
+  @media screen and (max-width: 768) {
+    p {
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+  
+    ul {
+      width: 100%;
+      text-align: center;
+    }
+  }
